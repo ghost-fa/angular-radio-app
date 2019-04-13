@@ -1,0 +1,16 @@
+$header-background: #ecad50;
+$header-color: white;
+.header {
+  width: 500px;
+  background: $header-background;
+  border-top-left-radius: 45px;
+  border-top-right-radius: 45px;
+  color: $header-color;
+  padding: 30px 0;
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 30px 40px #0000002b;
+}
