@@ -1,4 +1,7 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div class="main">
   <app-header></app-header>
+  <div *ngFor="let radio of radios; let i = index">
+    <app-radio-statios [radio]="radio"></app-radio-statios>
+  </div>
 </div>
