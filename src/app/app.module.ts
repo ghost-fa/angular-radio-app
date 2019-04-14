@@ -6,9 +6,10 @@ import { AppComponent } from "./app.component";
 import { HeaderComponent } from "./components/header/header.component";
 import { RadioStatiosComponent } from "./components/radio-statios/radio-statios.component";
 import { RadiosChanellComponent } from './components/radios-chanell/radios-chanell.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, RadioStatiosComponent, RadiosChanellComponent],
+  declarations: [AppComponent, HeaderComponent, RadioStatiosComponent, RadiosChanellComponent, FooterComponent],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent]

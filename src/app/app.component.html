@@ -1,11 +1,12 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div class="main">
-  <app-header></app-header>
+  <app-header (onOff)="onOff()"></app-header>
   <div *ngFor="let radio of radios; let i = index">
     <app-radio-statios *ngIf="id === i" [radio]="radio"></app-radio-statios>
     <app-radios-chanell
       (click)="onToggleCollapse(i)"
       [radio]="radio"
     ></app-radios-chanell>
+    <app-footer *ngIf="id === i" [name]="radio.name"></app-footer>
   </div>
 </div>

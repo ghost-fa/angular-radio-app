@@ -1,0 +1,21 @@
+$Footer-color: #ecad50;
+.Footer {
+  position: absolute;
+  bottom: 0px;
+  width: 500px;
+  text-align: center;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 10px 0;
+  background: black;
+  font-size: 25px;
+  border-top: 1px white solid;
+}
+
+p {
+  color: #9397a5;
+}
+
+.currplay {
+  color: $Footer-color;
+}

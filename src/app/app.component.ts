@@ -18,4 +18,8 @@ export class AppComponent implements OnInit {
   onToggleCollapse(id): void {
     this.id = id;
   }
+
+  onOff(id): void {
+    this.id = null;
+  }
 }
