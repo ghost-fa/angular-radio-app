@@ -1,5 +1,9 @@
+$radio-background: #2f2f39;
+$radio-color: #9397a5;
 .radiochanell {
   display: flex;
   justify-content: space-around;
   font-size: 30px;
+  background: $radio-background;
+  color: $radio-color;
 }

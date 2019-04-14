@@ -2,10 +2,16 @@
   display: flex;
   justify-content: space-around;
   margin: auto;
+  padding: 15px;
 }
 
 img {
   border-radius: 50%;
   width: 150px;
   height: 150px;
+}
+
+i {
+  padding-top: 68px;
+  font-size: 25px;
 }
