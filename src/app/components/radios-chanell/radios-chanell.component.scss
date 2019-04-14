@@ -5,6 +5,12 @@ $radio-color: #9397a5;
   justify-content: space-around;
   font-size: 30px;
   background: $radio-background;
-  height: 125px;
+
   color: $radio-color;
+}
+
+hr {
+  border: 1px #4d4d4d solid;
+  margin: auto;
+  width: 350px;
 }
