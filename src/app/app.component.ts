@@ -8,7 +8,7 @@ import { RadiosService } from "./services/radios.service";
 })
 export class AppComponent implements OnInit {
   radios: any;
-
+  name: any;
   constructor(private radiosService: RadiosService) {}
   ngOnInit() {
     this.radiosService.getRadios().subscribe(res => (this.radios = res.radios));
