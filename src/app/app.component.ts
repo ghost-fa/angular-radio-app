@@ -12,7 +12,15 @@ export class AppComponent implements OnInit {
   id: any;
   constructor(private radiosService: RadiosService) {}
   ngOnInit() {
-    this.radiosService.getRadios().subscribe(res => (this.radios = res.radios));
+    this.radiosService.getRadios().subscribe(res => {
+      this.radios = res.radios;
+      this.some();
+    });
+  }
+
+  some() {
+    const reduses = this.radios.reduce((a, b) => a + b.frequency, 0);
+    console.log(reduses.toFixed(2));
   }
 
   onToggleCollapse(id): void {
